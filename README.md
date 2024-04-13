@@ -13,7 +13,7 @@ The bot will always try to move the stop loss in favor of the selected position.
     <b>Sell Order Logic:</b>
     <p>If the short EMA is less than the long EMA (indicating potential downward price movement) and the last action wasn't a sell, the bot closes any existing buy order and places a sell order.
         After placing the sell order, it checks if the order was fully executed before updating its last action.</p>
-    <b>Exception Handling:</b> 
+    <b>Exception Handling: </b> 
     <p>If there's a timeout when communicating with Binance's API, the bot catches the exception and continues operation, ensuring the script doesn't terminate unexpectedly.</p>
 
 # Usage
