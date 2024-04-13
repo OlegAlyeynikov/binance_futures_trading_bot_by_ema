@@ -1,4 +1,4 @@
-# Future Trading Bot (EMA Crossover Strategy)
+# Futures Trading Bot (EMA Crossover Strategy)
 <p>This bot automates future trading on Binance based on Exponential Moving Average (EMA) crossovers. When the short-term EMA crosses above the long-term EMA, it's an indication of upward momentum, and the bot places a buy order. Conversely, when the short-term EMA crosses below the long-term EMA, signaling potential downward momentum, the bot places a sell order.</p>
 
 <b>How It Works:</b>
